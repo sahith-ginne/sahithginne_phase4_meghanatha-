@@ -1,0 +1,27 @@
+<div fxLayoutAlign="center">
+    <mat-card fxFlex="25">
+      <mat-toolbar class="header">Gateway for payment</mat-toolbar>
+      <form  fxLayout="column">
+      <mat-form-field>
+        <mat-label>name on the Card</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Card Number</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>CVV</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput [matDatepicker]="myDatePicker">
+          <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
+          <mat-datepicker #myDatePicker></mat-datepicker>
+      </mat-form-field>
+        <button mat-button  routerLink="/conformation" routerLinkActive="active">Proceed to pay</button>
+      
+      </form>
+    </mat-card>
+  </div>
+

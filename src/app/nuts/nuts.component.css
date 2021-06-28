@@ -1,0 +1,8 @@
+.products{
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.items{
+    max-width: 240px;
+}
+

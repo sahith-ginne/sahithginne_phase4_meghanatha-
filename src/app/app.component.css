@@ -1,0 +1,10 @@
+.toolbar{
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-between;
+
+}
+.spacer{
+    flex:  1 1 auto;
+    
+}
